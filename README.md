@@ -1,12 +1,11 @@
 # sciDX Kubernetes Resource
 
 This repository contains Kubernetes manifests and supporting files for deploying and managing scidx services stack within a Kubernetes cluster.
+## Basic Setup
 
-## Basic Set up
+1. **Deploy CKAN on an External Machine**:
 
-1. **Deploy CKAN on VM**
-
-    Please follow the link for instruction: [`ckan docker deployment`](https://github.com/sci-ndp/pop-ckan-docker/blob/master/README1.md)
+    Follow the instructions provided in the [CKAN Docker Deployment Guide](https://github.com/sci-ndp/pop-ckan-docker/blob/master/README1.md) to deploy CKAN on any machine outside the Kubernetes cluster, such as a virtual machine or a physical server.
 
 2. **Install the Ingress Controller**:
 
