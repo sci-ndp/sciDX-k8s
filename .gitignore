@@ -1,0 +1,3 @@
+.DS_Store
+pop-env-secret.yaml
+*.pem
